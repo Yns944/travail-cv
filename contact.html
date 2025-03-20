@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Younes ARAB</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <header>
+    <h1>Contactez-moi</h1>
+    <p>Je suis disponible pour toute question ou collaboration !</p>
+  </header>
+
+
+  <div class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="profil.html">Profil</a>
+  </div>
+
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email : younesarab590@gmail.com</p>
+    <p>Téléphone : 06 02 45 97 53</p>
+    <p>Adresse : Avenue georges clémeanceau , Orly </p>
+
+
+  </section>
+
+
+  <section>
+    <h2>Envoyer un message</h2>
+    <form id="contact-form">
+      <label for="name">Nom</label><br>
+      <input type="text" id="name" name="name" placeholder="Votre nom" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Votre email" required><br><br>
+
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" placeholder="Écrivez votre message ici..." rows="5" required></textarea><br><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="status-message" style="color: green; display: none;">Message envoyé avec succès !</p>
+  </section>
+
+
+  <div class="button-container">
+    <a href="index.html">Retour à l'Accueil</a>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2024 Younes ARAB - Tous droits réservés</p>
+    <script src="contact.js"></script>
+  </footer>
+  </body>
+</html>
